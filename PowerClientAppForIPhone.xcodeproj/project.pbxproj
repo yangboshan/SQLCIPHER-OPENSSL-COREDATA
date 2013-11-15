@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C917DC7F1835B24200472D40 /* CMDEncryptedSQLiteStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C917DC7E1835B24200472D40 /* CMDEncryptedSQLiteStore.m */; };
+		C917DC801835B24200472D40 /* CMDEncryptedSQLiteStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C917DC7E1835B24200472D40 /* CMDEncryptedSQLiteStore.m */; };
+		C917DC821835B25900472D40 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C917DC811835B25900472D40 /* CoreData.framework */; };
+		C917DC841835B27600472D40 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C917DC831835B27600472D40 /* Security.framework */; };
+		C917DC861835B28900472D40 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C917DC851835B28900472D40 /* QuartzCore.framework */; };
+		C917DC881835B28F00472D40 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C917DC871835B28F00472D40 /* CFNetwork.framework */; };
+		C917DC8A1835B29500472D40 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C917DC891835B29500472D40 /* SystemConfiguration.framework */; };
+		C917DC8C1835B2A300472D40 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C917DC8B1835B2A300472D40 /* libz.dylib */; };
+		C917DC8E1835B2AC00472D40 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C917DC8D1835B2AC00472D40 /* libxml2.dylib */; };
+		C917DC921835B4F900472D40 /* README.strings in Resources */ = {isa = PBXBuildFile; fileRef = C917DC911835B4F900472D40 /* README.strings */; };
+		C917DC931835B4F900472D40 /* README.strings in Resources */ = {isa = PBXBuildFile; fileRef = C917DC911835B4F900472D40 /* README.strings */; };
+		C9257A171835A3DB00775CFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9257A161835A3DB00775CFF /* UIKit.framework */; };
+		C9257A191835A3DB00775CFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9257A181835A3DB00775CFF /* Foundation.framework */; };
+		C9257A1B1835A3DB00775CFF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9257A1A1835A3DB00775CFF /* CoreGraphics.framework */; };
+		C9257A211835A3DB00775CFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9257A1F1835A3DB00775CFF /* InfoPlist.strings */; };
+		C9257A231835A3DB00775CFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9257A221835A3DB00775CFF /* main.m */; };
+		C9257A271835A3DB00775CFF /* XLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9257A261835A3DB00775CFF /* XLAppDelegate.m */; };
+		C9257A291835A3DB00775CFF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C9257A281835A3DB00775CFF /* Default.png */; };
+		C9257A2B1835A3DB00775CFF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9257A2A1835A3DB00775CFF /* Default@2x.png */; };
+		C9257A2D1835A3DB00775CFF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9257A2C1835A3DB00775CFF /* Default-568h@2x.png */; };
+		C9257A301835A3DB00775CFF /* XLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9257A2F1835A3DB00775CFF /* XLViewController.m */; };
+		C9257A331835A3DB00775CFF /* XLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9257A311835A3DB00775CFF /* XLViewController.xib */; };
+		C9257A3B1835A3DB00775CFF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9257A3A1835A3DB00775CFF /* SenTestingKit.framework */; };
+		C9257A3C1835A3DB00775CFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9257A161835A3DB00775CFF /* UIKit.framework */; };
+		C9257A3D1835A3DB00775CFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9257A181835A3DB00775CFF /* Foundation.framework */; };
+		C9257A451835A3DB00775CFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9257A431835A3DB00775CFF /* InfoPlist.strings */; };
+		C9257A481835A3DB00775CFF /* PowerClientAppForIPhoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9257A471835A3DB00775CFF /* PowerClientAppForIPhoneTests.m */; };
+		C9257A621835A6EC00775CFF /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9257A5D1835A6A500775CFF /* libcrypto.a */; };
+		C9257A631835A6EC00775CFF /* libsqlcipher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9257A571835A69B00775CFF /* libsqlcipher.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9257A3E1835A3DB00775CFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9257A0B1835A3DB00775CFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9257A121835A3DB00775CFF;
+			remoteInfo = PowerClientAppForIPhone;
+		};
+		C9257A561835A69B00775CFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9257A511835A69B00775CFF /* sqlcipher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC046055464E500DB518D;
+			remoteInfo = sqlcipher;
+		};
+		C9257A5C1835A6A500775CFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9257A581835A6A400775CFF /* openssl.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9069D28C0FCE659A0042E34C;
+			remoteInfo = crypto;
+		};
+		C9257A5E1835A6D200775CFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9257A581835A6A400775CFF /* openssl.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9069D28B0FCE659A0042E34C;
+			remoteInfo = crypto;
+		};
+		C9257A601835A6D200775CFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9257A511835A69B00775CFF /* sqlcipher.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC045055464E500DB518D;
+			remoteInfo = sqlcipher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C917DC7D1835B24200472D40 /* CMDEncryptedSQLiteStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDEncryptedSQLiteStore.h; sourceTree = "<group>"; };
+		C917DC7E1835B24200472D40 /* CMDEncryptedSQLiteStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDEncryptedSQLiteStore.m; sourceTree = "<group>"; };
+		C917DC811835B25900472D40 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C917DC831835B27600472D40 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C917DC851835B28900472D40 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C917DC871835B28F00472D40 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C917DC891835B29500472D40 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C917DC8B1835B2A300472D40 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		C917DC8D1835B2AC00472D40 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		C917DC911835B4F900472D40 /* README.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = README.strings; path = ../README.strings; sourceTree = "<group>"; };
+		C9257A131835A3DB00775CFF /* PowerClientAppForIPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerClientAppForIPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9257A161835A3DB00775CFF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C9257A181835A3DB00775CFF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9257A1A1835A3DB00775CFF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C9257A1E1835A3DB00775CFF /* PowerClientAppForIPhone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PowerClientAppForIPhone-Info.plist"; sourceTree = "<group>"; };
+		C9257A201835A3DB00775CFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9257A221835A3DB00775CFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9257A241835A3DB00775CFF /* PowerClientAppForIPhone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PowerClientAppForIPhone-Prefix.pch"; sourceTree = "<group>"; };
+		C9257A251835A3DB00775CFF /* XLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLAppDelegate.h; sourceTree = "<group>"; };
+		C9257A261835A3DB00775CFF /* XLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLAppDelegate.m; sourceTree = "<group>"; };
+		C9257A281835A3DB00775CFF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C9257A2A1835A3DB00775CFF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C9257A2C1835A3DB00775CFF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C9257A2E1835A3DB00775CFF /* XLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLViewController.h; sourceTree = "<group>"; };
+		C9257A2F1835A3DB00775CFF /* XLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLViewController.m; sourceTree = "<group>"; };
+		C9257A321835A3DB00775CFF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XLViewController.xib; sourceTree = "<group>"; };
+		C9257A391835A3DB00775CFF /* PowerClientAppForIPhoneTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowerClientAppForIPhoneTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9257A3A1835A3DB00775CFF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C9257A421835A3DB00775CFF /* PowerClientAppForIPhoneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PowerClientAppForIPhoneTests-Info.plist"; sourceTree = "<group>"; };
+		C9257A441835A3DB00775CFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9257A461835A3DB00775CFF /* PowerClientAppForIPhoneTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PowerClientAppForIPhoneTests.h; sourceTree = "<group>"; };
+		C9257A471835A3DB00775CFF /* PowerClientAppForIPhoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PowerClientAppForIPhoneTests.m; sourceTree = "<group>"; };
+		C9257A511835A69B00775CFF /* sqlcipher.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sqlcipher.xcodeproj; path = "sqlcipher-2.2.0/sqlcipher.xcodeproj"; sourceTree = "<group>"; };
+		C9257A581835A6A400775CFF /* openssl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openssl.xcodeproj; path = "openssl-xcode-master/openssl.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9257A101835A3DB00775CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C917DC8E1835B2AC00472D40 /* libxml2.dylib in Frameworks */,
+				C917DC8C1835B2A300472D40 /* libz.dylib in Frameworks */,
+				C917DC8A1835B29500472D40 /* SystemConfiguration.framework in Frameworks */,
+				C917DC881835B28F00472D40 /* CFNetwork.framework in Frameworks */,
+				C917DC861835B28900472D40 /* QuartzCore.framework in Frameworks */,
+				C917DC841835B27600472D40 /* Security.framework in Frameworks */,
+				C917DC821835B25900472D40 /* CoreData.framework in Frameworks */,
+				C9257A621835A6EC00775CFF /* libcrypto.a in Frameworks */,
+				C9257A631835A6EC00775CFF /* libsqlcipher.a in Frameworks */,
+				C9257A171835A3DB00775CFF /* UIKit.framework in Frameworks */,
+				C9257A191835A3DB00775CFF /* Foundation.framework in Frameworks */,
+				C9257A1B1835A3DB00775CFF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9257A351835A3DB00775CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9257A3B1835A3DB00775CFF /* SenTestingKit.framework in Frameworks */,
+				C9257A3C1835A3DB00775CFF /* UIKit.framework in Frameworks */,
+				C9257A3D1835A3DB00775CFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C917DC771835B1D900472D40 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C917DC781835B1E900472D40 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C917DC791835B1F200472D40 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C917DC7C1835B22B00472D40 /* CoreDataBridge */,
+				C917DC7B1835B21B00472D40 /* DataBase */,
+				C917DC7A1835B20C00472D40 /* 376.1 */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C917DC7A1835B20C00472D40 /* 376.1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = 376.1;
+			sourceTree = "<group>";
+		};
+		C917DC7B1835B21B00472D40 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DataBase;
+			sourceTree = "<group>";
+		};
+		C917DC7C1835B22B00472D40 /* CoreDataBridge */ = {
+			isa = PBXGroup;
+			children = (
+				C917DC7D1835B24200472D40 /* CMDEncryptedSQLiteStore.h */,
+				C917DC7E1835B24200472D40 /* CMDEncryptedSQLiteStore.m */,
+			);
+			name = CoreDataBridge;
+			sourceTree = "<group>";
+		};
+		C9257A0A1835A3DB00775CFF = {
+			isa = PBXGroup;
+			children = (
+				C9257A581835A6A400775CFF /* openssl.xcodeproj */,
+				C9257A511835A69B00775CFF /* sqlcipher.xcodeproj */,
+				C9257A1C1835A3DB00775CFF /* PowerClientAppForIPhone */,
+				C9257A401835A3DB00775CFF /* PowerClientAppForIPhoneTests */,
+				C9257A151835A3DB00775CFF /* Frameworks */,
+				C9257A141835A3DB00775CFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9257A141835A3DB00775CFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9257A131835A3DB00775CFF /* PowerClientAppForIPhone.app */,
+				C9257A391835A3DB00775CFF /* PowerClientAppForIPhoneTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9257A151835A3DB00775CFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C917DC8D1835B2AC00472D40 /* libxml2.dylib */,
+				C917DC8B1835B2A300472D40 /* libz.dylib */,
+				C917DC891835B29500472D40 /* SystemConfiguration.framework */,
+				C917DC871835B28F00472D40 /* CFNetwork.framework */,
+				C917DC851835B28900472D40 /* QuartzCore.framework */,
+				C917DC831835B27600472D40 /* Security.framework */,
+				C917DC811835B25900472D40 /* CoreData.framework */,
+				C9257A161835A3DB00775CFF /* UIKit.framework */,
+				C9257A181835A3DB00775CFF /* Foundation.framework */,
+				C9257A1A1835A3DB00775CFF /* CoreGraphics.framework */,
+				C9257A3A1835A3DB00775CFF /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9257A1C1835A3DB00775CFF /* PowerClientAppForIPhone */ = {
+			isa = PBXGroup;
+			children = (
+				C917DC911835B4F900472D40 /* README.strings */,
+				C9257A251835A3DB00775CFF /* XLAppDelegate.h */,
+				C9257A261835A3DB00775CFF /* XLAppDelegate.m */,
+				C9257A2E1835A3DB00775CFF /* XLViewController.h */,
+				C9257A2F1835A3DB00775CFF /* XLViewController.m */,
+				C9257A311835A3DB00775CFF /* XLViewController.xib */,
+				C917DC771835B1D900472D40 /* Controllers */,
+				C917DC781835B1E900472D40 /* View */,
+				C917DC791835B1F200472D40 /* Model */,
+				C9257A1D1835A3DB00775CFF /* Supporting Files */,
+			);
+			path = PowerClientAppForIPhone;
+			sourceTree = "<group>";
+		};
+		C9257A1D1835A3DB00775CFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9257A1E1835A3DB00775CFF /* PowerClientAppForIPhone-Info.plist */,
+				C9257A1F1835A3DB00775CFF /* InfoPlist.strings */,
+				C9257A221835A3DB00775CFF /* main.m */,
+				C9257A241835A3DB00775CFF /* PowerClientAppForIPhone-Prefix.pch */,
+				C9257A281835A3DB00775CFF /* Default.png */,
+				C9257A2A1835A3DB00775CFF /* Default@2x.png */,
+				C9257A2C1835A3DB00775CFF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9257A401835A3DB00775CFF /* PowerClientAppForIPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9257A461835A3DB00775CFF /* PowerClientAppForIPhoneTests.h */,
+				C9257A471835A3DB00775CFF /* PowerClientAppForIPhoneTests.m */,
+				C9257A411835A3DB00775CFF /* Supporting Files */,
+			);
+			path = PowerClientAppForIPhoneTests;
+			sourceTree = "<group>";
+		};
+		C9257A411835A3DB00775CFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9257A421835A3DB00775CFF /* PowerClientAppForIPhoneTests-Info.plist */,
+				C9257A431835A3DB00775CFF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9257A521835A69B00775CFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9257A571835A69B00775CFF /* libsqlcipher.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9257A591835A6A400775CFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9257A5D1835A6A500775CFF /* libcrypto.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9257A121835A3DB00775CFF /* PowerClientAppForIPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9257A4B1835A3DB00775CFF /* Build configuration list for PBXNativeTarget "PowerClientAppForIPhone" */;
+			buildPhases = (
+				C9257A0F1835A3DB00775CFF /* Sources */,
+				C9257A101835A3DB00775CFF /* Frameworks */,
+				C9257A111835A3DB00775CFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9257A5F1835A6D200775CFF /* PBXTargetDependency */,
+				C9257A611835A6D200775CFF /* PBXTargetDependency */,
+			);
+			name = PowerClientAppForIPhone;
+			productName = PowerClientAppForIPhone;
+			productReference = C9257A131835A3DB00775CFF /* PowerClientAppForIPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9257A381835A3DB00775CFF /* PowerClientAppForIPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9257A4E1835A3DB00775CFF /* Build configuration list for PBXNativeTarget "PowerClientAppForIPhoneTests" */;
+			buildPhases = (
+				C9257A341835A3DB00775CFF /* Sources */,
+				C9257A351835A3DB00775CFF /* Frameworks */,
+				C9257A361835A3DB00775CFF /* Resources */,
+				C9257A371835A3DB00775CFF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9257A3F1835A3DB00775CFF /* PBXTargetDependency */,
+			);
+			name = PowerClientAppForIPhoneTests;
+			productName = PowerClientAppForIPhoneTests;
+			productReference = C9257A391835A3DB00775CFF /* PowerClientAppForIPhoneTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9257A0B1835A3DB00775CFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XL;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = XLDZ;
+			};
+			buildConfigurationList = C9257A0E1835A3DB00775CFF /* Build configuration list for PBXProject "PowerClientAppForIPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9257A0A1835A3DB00775CFF;
+			productRefGroup = C9257A141835A3DB00775CFF /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C9257A591835A6A400775CFF /* Products */;
+					ProjectRef = C9257A581835A6A400775CFF /* openssl.xcodeproj */;
+				},
+				{
+					ProductGroup = C9257A521835A69B00775CFF /* Products */;
+					ProjectRef = C9257A511835A69B00775CFF /* sqlcipher.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C9257A121835A3DB00775CFF /* PowerClientAppForIPhone */,
+				C9257A381835A3DB00775CFF /* PowerClientAppForIPhoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C9257A571835A69B00775CFF /* libsqlcipher.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libsqlcipher.a;
+			remoteRef = C9257A561835A69B00775CFF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C9257A5D1835A6A500775CFF /* libcrypto.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcrypto.a;
+			remoteRef = C9257A5C1835A6A500775CFF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9257A111835A3DB00775CFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9257A211835A3DB00775CFF /* InfoPlist.strings in Resources */,
+				C9257A291835A3DB00775CFF /* Default.png in Resources */,
+				C9257A2B1835A3DB00775CFF /* Default@2x.png in Resources */,
+				C9257A2D1835A3DB00775CFF /* Default-568h@2x.png in Resources */,
+				C9257A331835A3DB00775CFF /* XLViewController.xib in Resources */,
+				C917DC921835B4F900472D40 /* README.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9257A361835A3DB00775CFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9257A451835A3DB00775CFF /* InfoPlist.strings in Resources */,
+				C917DC931835B4F900472D40 /* README.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C9257A371835A3DB00775CFF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9257A0F1835A3DB00775CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9257A231835A3DB00775CFF /* main.m in Sources */,
+				C9257A271835A3DB00775CFF /* XLAppDelegate.m in Sources */,
+				C9257A301835A3DB00775CFF /* XLViewController.m in Sources */,
+				C917DC7F1835B24200472D40 /* CMDEncryptedSQLiteStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9257A341835A3DB00775CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9257A481835A3DB00775CFF /* PowerClientAppForIPhoneTests.m in Sources */,
+				C917DC801835B24200472D40 /* CMDEncryptedSQLiteStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9257A3F1835A3DB00775CFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9257A121835A3DB00775CFF /* PowerClientAppForIPhone */;
+			targetProxy = C9257A3E1835A3DB00775CFF /* PBXContainerItemProxy */;
+		};
+		C9257A5F1835A6D200775CFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = crypto;
+			targetProxy = C9257A5E1835A6D200775CFF /* PBXContainerItemProxy */;
+		};
+		C9257A611835A6D200775CFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = sqlcipher;
+			targetProxy = C9257A601835A6D200775CFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9257A1F1835A3DB00775CFF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9257A201835A3DB00775CFF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C9257A311835A3DB00775CFF /* XLViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9257A321835A3DB00775CFF /* en */,
+			);
+			name = XLViewController.xib;
+			sourceTree = "<group>";
+		};
+		C9257A431835A3DB00775CFF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9257A441835A3DB00775CFF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9257A491835A3DB00775CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = sqlcipher;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DSQLITE_HAS_CODEC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9257A4A1835A3DB00775CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = sqlcipher;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"-DSQLITE_HAS_CODEC",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9257A4C1835A3DB00775CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PowerClientAppForIPhone/PowerClientAppForIPhone-Prefix.pch";
+				INFOPLIST_FILE = "PowerClientAppForIPhone/PowerClientAppForIPhone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9257A4D1835A3DB00775CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PowerClientAppForIPhone/PowerClientAppForIPhone-Prefix.pch";
+				INFOPLIST_FILE = "PowerClientAppForIPhone/PowerClientAppForIPhone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C9257A4F1835A3DB00775CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PowerClientAppForIPhone.app/PowerClientAppForIPhone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PowerClientAppForIPhone/PowerClientAppForIPhone-Prefix.pch";
+				INFOPLIST_FILE = "PowerClientAppForIPhoneTests/PowerClientAppForIPhoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C9257A501835A3DB00775CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PowerClientAppForIPhone.app/PowerClientAppForIPhone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PowerClientAppForIPhone/PowerClientAppForIPhone-Prefix.pch";
+				INFOPLIST_FILE = "PowerClientAppForIPhoneTests/PowerClientAppForIPhoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9257A0E1835A3DB00775CFF /* Build configuration list for PBXProject "PowerClientAppForIPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9257A491835A3DB00775CFF /* Debug */,
+				C9257A4A1835A3DB00775CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9257A4B1835A3DB00775CFF /* Build configuration list for PBXNativeTarget "PowerClientAppForIPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9257A4C1835A3DB00775CFF /* Debug */,
+				C9257A4D1835A3DB00775CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9257A4E1835A3DB00775CFF /* Build configuration list for PBXNativeTarget "PowerClientAppForIPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9257A4F1835A3DB00775CFF /* Debug */,
+				C9257A501835A3DB00775CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9257A0B1835A3DB00775CFF /* Project object */;
+}
