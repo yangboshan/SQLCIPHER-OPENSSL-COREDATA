@@ -1,7 +1,7 @@
 //
 //  XLAppDelegate.m
 //  PowerClientAppForIPhone
-//
+//  a
 //  Created by JY on 13-11-15.
 //  Copyright (c) 2013年 XLDZ. All rights reserved.
 //

@@ -36,6 +36,64 @@
 		C9257A481835A3DB00775CFF /* PowerClientAppForIPhoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9257A471835A3DB00775CFF /* PowerClientAppForIPhoneTests.m */; };
 		C9257A621835A6EC00775CFF /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9257A5D1835A6A500775CFF /* libcrypto.a */; };
 		C9257A631835A6EC00775CFF /* libsqlcipher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9257A571835A69B00775CFF /* libsqlcipher.a */; };
+		C9DE9DA71835BE4700CD3B84 /* XLFrameData.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9D941835BE4700CD3B84 /* XLFrameData.m */; };
+		C9DE9DA81835BE4700CD3B84 /* XLFrameData.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9D941835BE4700CD3B84 /* XLFrameData.m */; };
+		C9DE9DA91835BE4700CD3B84 /* XLSocketOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9D961835BE4700CD3B84 /* XLSocketOperation.m */; };
+		C9DE9DAA1835BE4700CD3B84 /* XLSocketOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9D961835BE4700CD3B84 /* XLSocketOperation.m */; };
+		C9DE9DAB1835BE4700CD3B84 /* XL3761BaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9D9A1835BE4700CD3B84 /* XL3761BaseRequest.m */; };
+		C9DE9DAC1835BE4700CD3B84 /* XL3761BaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9D9A1835BE4700CD3B84 /* XL3761BaseRequest.m */; };
+		C9DE9DAD1835BE4700CD3B84 /* XL3761Header.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9D9C1835BE4700CD3B84 /* XL3761Header.m */; };
+		C9DE9DAE1835BE4700CD3B84 /* XL3761Header.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9D9C1835BE4700CD3B84 /* XL3761Header.m */; };
+		C9DE9DAF1835BE4700CD3B84 /* XL3761ControlField.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9D9E1835BE4700CD3B84 /* XL3761ControlField.m */; };
+		C9DE9DB01835BE4700CD3B84 /* XL3761ControlField.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9D9E1835BE4700CD3B84 /* XL3761ControlField.m */; };
+		C9DE9DB11835BE4700CD3B84 /* XL3761AddressField.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DA01835BE4700CD3B84 /* XL3761AddressField.m */; };
+		C9DE9DB21835BE4700CD3B84 /* XL3761AddressField.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DA01835BE4700CD3B84 /* XL3761AddressField.m */; };
+		C9DE9DB31835BE4700CD3B84 /* XL3761SEQField.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DA21835BE4700CD3B84 /* XL3761SEQField.m */; };
+		C9DE9DB41835BE4700CD3B84 /* XL3761SEQField.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DA21835BE4700CD3B84 /* XL3761SEQField.m */; };
+		C9DE9DB51835BE4700CD3B84 /* XL3761DADTRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DA41835BE4700CD3B84 /* XL3761DADTRecord.m */; };
+		C9DE9DB61835BE4700CD3B84 /* XL3761DADTRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DA41835BE4700CD3B84 /* XL3761DADTRecord.m */; };
+		C9DE9DB71835BE4700CD3B84 /* XL3761AUXField.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DA61835BE4700CD3B84 /* XL3761AUXField.m */; };
+		C9DE9DB81835BE4700CD3B84 /* XL3761AUXField.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DA61835BE4700CD3B84 /* XL3761AUXField.m */; };
+		C9DE9DC31835BE5700CD3B84 /* XL3761PackFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DBA1835BE5700CD3B84 /* XL3761PackFrame.m */; };
+		C9DE9DC41835BE5700CD3B84 /* XL3761PackFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DBA1835BE5700CD3B84 /* XL3761PackFrame.m */; };
+		C9DE9DC51835BE5700CD3B84 /* XL3761PackRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DBC1835BE5700CD3B84 /* XL3761PackRequest.m */; };
+		C9DE9DC61835BE5700CD3B84 /* XL3761PackRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DBC1835BE5700CD3B84 /* XL3761PackRequest.m */; };
+		C9DE9DC71835BE5700CD3B84 /* XL3761PackEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DBE1835BE5700CD3B84 /* XL3761PackEntity.m */; };
+		C9DE9DC81835BE5700CD3B84 /* XL3761PackEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DBE1835BE5700CD3B84 /* XL3761PackEntity.m */; };
+		C9DE9DC91835BE5700CD3B84 /* XL3761PackItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DC01835BE5700CD3B84 /* XL3761PackItem.m */; };
+		C9DE9DCA1835BE5700CD3B84 /* XL3761PackItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DC01835BE5700CD3B84 /* XL3761PackItem.m */; };
+		C9DE9DCB1835BE5700CD3B84 /* XL3761PackUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DC21835BE5700CD3B84 /* XL3761PackUserData.m */; };
+		C9DE9DCC1835BE5700CD3B84 /* XL3761PackUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DC21835BE5700CD3B84 /* XL3761PackUserData.m */; };
+		C9DE9DDB1835BE6400CD3B84 /* XL3761AFN0.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DCE1835BE6400CD3B84 /* XL3761AFN0.m */; };
+		C9DE9DDC1835BE6400CD3B84 /* XL3761AFN0.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DCE1835BE6400CD3B84 /* XL3761AFN0.m */; };
+		C9DE9DDD1835BE6400CD3B84 /* XL3761AFN1.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DD01835BE6400CD3B84 /* XL3761AFN1.m */; };
+		C9DE9DDE1835BE6400CD3B84 /* XL3761AFN1.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DD01835BE6400CD3B84 /* XL3761AFN1.m */; };
+		C9DE9DDF1835BE6400CD3B84 /* XL3761AFN4.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DD21835BE6400CD3B84 /* XL3761AFN4.m */; };
+		C9DE9DE01835BE6400CD3B84 /* XL3761AFN4.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DD21835BE6400CD3B84 /* XL3761AFN4.m */; };
+		C9DE9DE11835BE6400CD3B84 /* XL3761AFNA.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DD41835BE6400CD3B84 /* XL3761AFNA.m */; };
+		C9DE9DE21835BE6400CD3B84 /* XL3761AFNA.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DD41835BE6400CD3B84 /* XL3761AFNA.m */; };
+		C9DE9DE31835BE6400CD3B84 /* XL3761AFNC.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DD61835BE6400CD3B84 /* XL3761AFNC.m */; };
+		C9DE9DE41835BE6400CD3B84 /* XL3761AFNC.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DD61835BE6400CD3B84 /* XL3761AFNC.m */; };
+		C9DE9DE51835BE6400CD3B84 /* XL3761AFND.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DD81835BE6400CD3B84 /* XL3761AFND.m */; };
+		C9DE9DE61835BE6400CD3B84 /* XL3761AFND.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DD81835BE6400CD3B84 /* XL3761AFND.m */; };
+		C9DE9DE71835BE6400CD3B84 /* XL3761AFNE.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DDA1835BE6400CD3B84 /* XL3761AFNE.m */; };
+		C9DE9DE81835BE6400CD3B84 /* XL3761AFNE.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DDA1835BE6400CD3B84 /* XL3761AFNE.m */; };
+		C9DE9DED1835BE8700CD3B84 /* XLCurveDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DEA1835BE8700CD3B84 /* XLCurveDataItem.m */; };
+		C9DE9DEE1835BE8700CD3B84 /* XLCurveDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DEA1835BE8700CD3B84 /* XLCurveDataItem.m */; };
+		C9DE9DEF1835BE8700CD3B84 /* XLSubCurveDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DEC1835BE8700CD3B84 /* XLSubCurveDataItem.m */; };
+		C9DE9DF01835BE8700CD3B84 /* XLSubCurveDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DEC1835BE8700CD3B84 /* XLSubCurveDataItem.m */; };
+		C9DE9DF41835BE9C00CD3B84 /* XLDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DF21835BE9C00CD3B84 /* XLDataBase.m */; };
+		C9DE9DF51835BE9C00CD3B84 /* XLDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DF21835BE9C00CD3B84 /* XLDataBase.m */; };
+		C9DE9DF61835BE9C00CD3B84 /* Model.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DF31835BE9C00CD3B84 /* Model.xcdatamodel */; };
+		C9DE9DF71835BE9C00CD3B84 /* Model.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DF31835BE9C00CD3B84 /* Model.xcdatamodel */; };
+		C9DE9DFE1835BF1900CD3B84 /* XLSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DFB1835BF1900CD3B84 /* XLSocketManager.m */; };
+		C9DE9DFF1835BF1900CD3B84 /* XLSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DFB1835BF1900CD3B84 /* XLSocketManager.m */; };
+		C9DE9E001835BF1900CD3B84 /* XLSettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DFD1835BF1900CD3B84 /* XLSettingsManager.m */; };
+		C9DE9E011835BF1900CD3B84 /* XLSettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9DFD1835BF1900CD3B84 /* XLSettingsManager.m */; };
+		C9DE9E051835C01A00CD3B84 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9E041835C01A00CD3B84 /* Reachability.m */; };
+		C9DE9E061835C01A00CD3B84 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9E041835C01A00CD3B84 /* Reachability.m */; };
+		C9DE9E0B1835C07400CD3B84 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9E0A1835C07400CD3B84 /* GCDAsyncSocket.m */; };
+		C9DE9E0C1835C07400CD3B84 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE9E0A1835C07400CD3B84 /* GCDAsyncSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +169,67 @@
 		C9257A471835A3DB00775CFF /* PowerClientAppForIPhoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PowerClientAppForIPhoneTests.m; sourceTree = "<group>"; };
 		C9257A511835A69B00775CFF /* sqlcipher.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sqlcipher.xcodeproj; path = "sqlcipher-2.2.0/sqlcipher.xcodeproj"; sourceTree = "<group>"; };
 		C9257A581835A6A400775CFF /* openssl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openssl.xcodeproj; path = "openssl-xcode-master/openssl.xcodeproj"; sourceTree = "<group>"; };
+		C9DE9D931835BE4700CD3B84 /* XLFrameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFrameData.h; sourceTree = "<group>"; };
+		C9DE9D941835BE4700CD3B84 /* XLFrameData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFrameData.m; sourceTree = "<group>"; };
+		C9DE9D951835BE4700CD3B84 /* XLSocketOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSocketOperation.h; sourceTree = "<group>"; };
+		C9DE9D961835BE4700CD3B84 /* XLSocketOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSocketOperation.m; sourceTree = "<group>"; };
+		C9DE9D971835BE4700CD3B84 /* XLDataID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLDataID.h; sourceTree = "<group>"; };
+		C9DE9D981835BE4700CD3B84 /* XLSocketRequests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSocketRequests.h; sourceTree = "<group>"; };
+		C9DE9D991835BE4700CD3B84 /* XL3761BaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XL3761BaseRequest.h; sourceTree = "<group>"; };
+		C9DE9D9A1835BE4700CD3B84 /* XL3761BaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XL3761BaseRequest.m; sourceTree = "<group>"; };
+		C9DE9D9B1835BE4700CD3B84 /* XL3761Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XL3761Header.h; sourceTree = "<group>"; };
+		C9DE9D9C1835BE4700CD3B84 /* XL3761Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XL3761Header.m; sourceTree = "<group>"; };
+		C9DE9D9D1835BE4700CD3B84 /* XL3761ControlField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XL3761ControlField.h; sourceTree = "<group>"; };
+		C9DE9D9E1835BE4700CD3B84 /* XL3761ControlField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XL3761ControlField.m; sourceTree = "<group>"; };
+		C9DE9D9F1835BE4700CD3B84 /* XL3761AddressField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XL3761AddressField.h; sourceTree = "<group>"; };
+		C9DE9DA01835BE4700CD3B84 /* XL3761AddressField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XL3761AddressField.m; sourceTree = "<group>"; };
+		C9DE9DA11835BE4700CD3B84 /* XL3761SEQField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XL3761SEQField.h; sourceTree = "<group>"; };
+		C9DE9DA21835BE4700CD3B84 /* XL3761SEQField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XL3761SEQField.m; sourceTree = "<group>"; };
+		C9DE9DA31835BE4700CD3B84 /* XL3761DADTRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XL3761DADTRecord.h; sourceTree = "<group>"; };
+		C9DE9DA41835BE4700CD3B84 /* XL3761DADTRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XL3761DADTRecord.m; sourceTree = "<group>"; };
+		C9DE9DA51835BE4700CD3B84 /* XL3761AUXField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XL3761AUXField.h; sourceTree = "<group>"; };
+		C9DE9DA61835BE4700CD3B84 /* XL3761AUXField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XL3761AUXField.m; sourceTree = "<group>"; };
+		C9DE9DB91835BE5700CD3B84 /* XL3761PackFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XL3761PackFrame.h; sourceTree = "<group>"; };
+		C9DE9DBA1835BE5700CD3B84 /* XL3761PackFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XL3761PackFrame.m; sourceTree = "<group>"; };
+		C9DE9DBB1835BE5700CD3B84 /* XL3761PackRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XL3761PackRequest.h; sourceTree = "<group>"; };
+		C9DE9DBC1835BE5700CD3B84 /* XL3761PackRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XL3761PackRequest.m; sourceTree = "<group>"; };
+		C9DE9DBD1835BE5700CD3B84 /* XL3761PackEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XL3761PackEntity.h; sourceTree = "<group>"; };
+		C9DE9DBE1835BE5700CD3B84 /* XL3761PackEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XL3761PackEntity.m; sourceTree = "<group>"; };
+		C9DE9DBF1835BE5700CD3B84 /* XL3761PackItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XL3761PackItem.h; sourceTree = "<group>"; };
+		C9DE9DC01835BE5700CD3B84 /* XL3761PackItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XL3761PackItem.m; sourceTree = "<group>"; };
+		C9DE9DC11835BE5700CD3B84 /* XL3761PackUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XL3761PackUserData.h; sourceTree = "<group>"; };
+		C9DE9DC21835BE5700CD3B84 /* XL3761PackUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XL3761PackUserData.m; sourceTree = "<group>"; };
+		C9DE9DCD1835BE6400CD3B84 /* XL3761AFN0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XL3761AFN0.h; sourceTree = "<group>"; };
+		C9DE9DCE1835BE6400CD3B84 /* XL3761AFN0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XL3761AFN0.m; sourceTree = "<group>"; };
+		C9DE9DCF1835BE6400CD3B84 /* XL3761AFN1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XL3761AFN1.h; sourceTree = "<group>"; };
+		C9DE9DD01835BE6400CD3B84 /* XL3761AFN1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XL3761AFN1.m; sourceTree = "<group>"; };
+		C9DE9DD11835BE6400CD3B84 /* XL3761AFN4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XL3761AFN4.h; sourceTree = "<group>"; };
+		C9DE9DD21835BE6400CD3B84 /* XL3761AFN4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XL3761AFN4.m; sourceTree = "<group>"; };
+		C9DE9DD31835BE6400CD3B84 /* XL3761AFNA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XL3761AFNA.h; sourceTree = "<group>"; };
+		C9DE9DD41835BE6400CD3B84 /* XL3761AFNA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XL3761AFNA.m; sourceTree = "<group>"; };
+		C9DE9DD51835BE6400CD3B84 /* XL3761AFNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XL3761AFNC.h; sourceTree = "<group>"; };
+		C9DE9DD61835BE6400CD3B84 /* XL3761AFNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XL3761AFNC.m; sourceTree = "<group>"; };
+		C9DE9DD71835BE6400CD3B84 /* XL3761AFND.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XL3761AFND.h; sourceTree = "<group>"; };
+		C9DE9DD81835BE6400CD3B84 /* XL3761AFND.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XL3761AFND.m; sourceTree = "<group>"; };
+		C9DE9DD91835BE6400CD3B84 /* XL3761AFNE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XL3761AFNE.h; sourceTree = "<group>"; };
+		C9DE9DDA1835BE6400CD3B84 /* XL3761AFNE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XL3761AFNE.m; sourceTree = "<group>"; };
+		C9DE9DE91835BE8700CD3B84 /* XLCurveDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLCurveDataItem.h; sourceTree = "<group>"; };
+		C9DE9DEA1835BE8700CD3B84 /* XLCurveDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLCurveDataItem.m; sourceTree = "<group>"; };
+		C9DE9DEB1835BE8700CD3B84 /* XLSubCurveDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSubCurveDataItem.h; sourceTree = "<group>"; };
+		C9DE9DEC1835BE8700CD3B84 /* XLSubCurveDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSubCurveDataItem.m; sourceTree = "<group>"; };
+		C9DE9DF11835BE9C00CD3B84 /* XLDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLDataBase.h; sourceTree = "<group>"; };
+		C9DE9DF21835BE9C00CD3B84 /* XLDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLDataBase.m; sourceTree = "<group>"; };
+		C9DE9DF31835BE9C00CD3B84 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		C9DE9DF91835BEF100CD3B84 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		C9DE9DFA1835BF1900CD3B84 /* XLSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSocketManager.h; sourceTree = "<group>"; };
+		C9DE9DFB1835BF1900CD3B84 /* XLSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSocketManager.m; sourceTree = "<group>"; };
+		C9DE9DFC1835BF1900CD3B84 /* XLSettingsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSettingsManager.h; sourceTree = "<group>"; };
+		C9DE9DFD1835BF1900CD3B84 /* XLSettingsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSettingsManager.m; sourceTree = "<group>"; };
+		C9DE9E031835C01A00CD3B84 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		C9DE9E041835C01A00CD3B84 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		C9DE9E071835C05700CD3B84 /* XLExternals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLExternals.h; sourceTree = "<group>"; };
+		C9DE9E091835C07400CD3B84 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		C9DE9E0A1835C07400CD3B84 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +292,13 @@
 		C917DC7A1835B20C00472D40 /* 376.1 */ = {
 			isa = PBXGroup;
 			children = (
+				C9DE9DE91835BE8700CD3B84 /* XLCurveDataItem.h */,
+				C9DE9DEA1835BE8700CD3B84 /* XLCurveDataItem.m */,
+				C9DE9DEB1835BE8700CD3B84 /* XLSubCurveDataItem.h */,
+				C9DE9DEC1835BE8700CD3B84 /* XLSubCurveDataItem.m */,
+				C9DE9D921835BE1D00CD3B84 /* FrameStructure */,
+				C9DE9D911835BE1B00CD3B84 /* Pack */,
+				C9DE9D8F1835BE1700CD3B84 /* Parsers */,
 			);
 			name = 376.1;
 			sourceTree = "<group>";
@@ -180,6 +306,9 @@
 		C917DC7B1835B21B00472D40 /* DataBase */ = {
 			isa = PBXGroup;
 			children = (
+				C9DE9DF11835BE9C00CD3B84 /* XLDataBase.h */,
+				C9DE9DF21835BE9C00CD3B84 /* XLDataBase.m */,
+				C9DE9DF31835BE9C00CD3B84 /* Model.xcdatamodel */,
 			);
 			name = DataBase;
 			sourceTree = "<group>";
@@ -244,6 +373,8 @@
 				C917DC771835B1D900472D40 /* Controllers */,
 				C917DC781835B1E900472D40 /* View */,
 				C917DC791835B1F200472D40 /* Model */,
+				C9DE9DF81835BEE200CD3B84 /* Helpers */,
+				C9DE9E021835C00100CD3B84 /* ThirdParty */,
 				C9257A1D1835A3DB00775CFF /* Supporting Files */,
 			);
 			path = PowerClientAppForIPhone;
@@ -296,6 +427,111 @@
 				C9257A5D1835A6A500775CFF /* libcrypto.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C9DE9D8F1835BE1700CD3B84 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				C9DE9DCD1835BE6400CD3B84 /* XL3761AFN0.h */,
+				C9DE9DCE1835BE6400CD3B84 /* XL3761AFN0.m */,
+				C9DE9DCF1835BE6400CD3B84 /* XL3761AFN1.h */,
+				C9DE9DD01835BE6400CD3B84 /* XL3761AFN1.m */,
+				C9DE9DD11835BE6400CD3B84 /* XL3761AFN4.h */,
+				C9DE9DD21835BE6400CD3B84 /* XL3761AFN4.m */,
+				C9DE9DD31835BE6400CD3B84 /* XL3761AFNA.h */,
+				C9DE9DD41835BE6400CD3B84 /* XL3761AFNA.m */,
+				C9DE9DD51835BE6400CD3B84 /* XL3761AFNC.h */,
+				C9DE9DD61835BE6400CD3B84 /* XL3761AFNC.m */,
+				C9DE9DD71835BE6400CD3B84 /* XL3761AFND.h */,
+				C9DE9DD81835BE6400CD3B84 /* XL3761AFND.m */,
+				C9DE9DD91835BE6400CD3B84 /* XL3761AFNE.h */,
+				C9DE9DDA1835BE6400CD3B84 /* XL3761AFNE.m */,
+			);
+			name = Parsers;
+			sourceTree = "<group>";
+		};
+		C9DE9D911835BE1B00CD3B84 /* Pack */ = {
+			isa = PBXGroup;
+			children = (
+				C9DE9DB91835BE5700CD3B84 /* XL3761PackFrame.h */,
+				C9DE9DBA1835BE5700CD3B84 /* XL3761PackFrame.m */,
+				C9DE9DBB1835BE5700CD3B84 /* XL3761PackRequest.h */,
+				C9DE9DBC1835BE5700CD3B84 /* XL3761PackRequest.m */,
+				C9DE9DBD1835BE5700CD3B84 /* XL3761PackEntity.h */,
+				C9DE9DBE1835BE5700CD3B84 /* XL3761PackEntity.m */,
+				C9DE9DBF1835BE5700CD3B84 /* XL3761PackItem.h */,
+				C9DE9DC01835BE5700CD3B84 /* XL3761PackItem.m */,
+				C9DE9DC11835BE5700CD3B84 /* XL3761PackUserData.h */,
+				C9DE9DC21835BE5700CD3B84 /* XL3761PackUserData.m */,
+			);
+			name = Pack;
+			sourceTree = "<group>";
+		};
+		C9DE9D921835BE1D00CD3B84 /* FrameStructure */ = {
+			isa = PBXGroup;
+			children = (
+				C9DE9D931835BE4700CD3B84 /* XLFrameData.h */,
+				C9DE9D941835BE4700CD3B84 /* XLFrameData.m */,
+				C9DE9D951835BE4700CD3B84 /* XLSocketOperation.h */,
+				C9DE9D961835BE4700CD3B84 /* XLSocketOperation.m */,
+				C9DE9D971835BE4700CD3B84 /* XLDataID.h */,
+				C9DE9D981835BE4700CD3B84 /* XLSocketRequests.h */,
+				C9DE9D991835BE4700CD3B84 /* XL3761BaseRequest.h */,
+				C9DE9D9A1835BE4700CD3B84 /* XL3761BaseRequest.m */,
+				C9DE9D9B1835BE4700CD3B84 /* XL3761Header.h */,
+				C9DE9D9C1835BE4700CD3B84 /* XL3761Header.m */,
+				C9DE9D9D1835BE4700CD3B84 /* XL3761ControlField.h */,
+				C9DE9D9E1835BE4700CD3B84 /* XL3761ControlField.m */,
+				C9DE9D9F1835BE4700CD3B84 /* XL3761AddressField.h */,
+				C9DE9DA01835BE4700CD3B84 /* XL3761AddressField.m */,
+				C9DE9DA11835BE4700CD3B84 /* XL3761SEQField.h */,
+				C9DE9DA21835BE4700CD3B84 /* XL3761SEQField.m */,
+				C9DE9DA31835BE4700CD3B84 /* XL3761DADTRecord.h */,
+				C9DE9DA41835BE4700CD3B84 /* XL3761DADTRecord.m */,
+				C9DE9DA51835BE4700CD3B84 /* XL3761AUXField.h */,
+				C9DE9DA61835BE4700CD3B84 /* XL3761AUXField.m */,
+			);
+			name = FrameStructure;
+			sourceTree = "<group>";
+		};
+		C9DE9DF81835BEE200CD3B84 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C9DE9DF91835BEF100CD3B84 /* SynthesizeSingleton.h */,
+				C9DE9DFA1835BF1900CD3B84 /* XLSocketManager.h */,
+				C9DE9DFB1835BF1900CD3B84 /* XLSocketManager.m */,
+				C9DE9DFC1835BF1900CD3B84 /* XLSettingsManager.h */,
+				C9DE9DFD1835BF1900CD3B84 /* XLSettingsManager.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		C9DE9E021835C00100CD3B84 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				C9DE9E071835C05700CD3B84 /* XLExternals.h */,
+				C9DE9E081835C06600CD3B84 /* Socket */,
+				C9DE9E0D1835C1A600CD3B84 /* Reachability */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		C9DE9E081835C06600CD3B84 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				C9DE9E091835C07400CD3B84 /* GCDAsyncSocket.h */,
+				C9DE9E0A1835C07400CD3B84 /* GCDAsyncSocket.m */,
+			);
+			name = Socket;
+			sourceTree = "<group>";
+		};
+		C9DE9E0D1835C1A600CD3B84 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				C9DE9E031835C01A00CD3B84 /* Reachability.h */,
+				C9DE9E041835C01A00CD3B84 /* Reachability.m */,
+			);
+			name = Reachability;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -444,6 +680,35 @@
 				C9257A271835A3DB00775CFF /* XLAppDelegate.m in Sources */,
 				C9257A301835A3DB00775CFF /* XLViewController.m in Sources */,
 				C917DC7F1835B24200472D40 /* CMDEncryptedSQLiteStore.m in Sources */,
+				C9DE9DA71835BE4700CD3B84 /* XLFrameData.m in Sources */,
+				C9DE9DA91835BE4700CD3B84 /* XLSocketOperation.m in Sources */,
+				C9DE9DAB1835BE4700CD3B84 /* XL3761BaseRequest.m in Sources */,
+				C9DE9DAD1835BE4700CD3B84 /* XL3761Header.m in Sources */,
+				C9DE9DAF1835BE4700CD3B84 /* XL3761ControlField.m in Sources */,
+				C9DE9DB11835BE4700CD3B84 /* XL3761AddressField.m in Sources */,
+				C9DE9DB31835BE4700CD3B84 /* XL3761SEQField.m in Sources */,
+				C9DE9DB51835BE4700CD3B84 /* XL3761DADTRecord.m in Sources */,
+				C9DE9DB71835BE4700CD3B84 /* XL3761AUXField.m in Sources */,
+				C9DE9DC31835BE5700CD3B84 /* XL3761PackFrame.m in Sources */,
+				C9DE9DC51835BE5700CD3B84 /* XL3761PackRequest.m in Sources */,
+				C9DE9DC71835BE5700CD3B84 /* XL3761PackEntity.m in Sources */,
+				C9DE9DC91835BE5700CD3B84 /* XL3761PackItem.m in Sources */,
+				C9DE9DCB1835BE5700CD3B84 /* XL3761PackUserData.m in Sources */,
+				C9DE9DDB1835BE6400CD3B84 /* XL3761AFN0.m in Sources */,
+				C9DE9DDD1835BE6400CD3B84 /* XL3761AFN1.m in Sources */,
+				C9DE9DDF1835BE6400CD3B84 /* XL3761AFN4.m in Sources */,
+				C9DE9DE11835BE6400CD3B84 /* XL3761AFNA.m in Sources */,
+				C9DE9DE31835BE6400CD3B84 /* XL3761AFNC.m in Sources */,
+				C9DE9DE51835BE6400CD3B84 /* XL3761AFND.m in Sources */,
+				C9DE9DE71835BE6400CD3B84 /* XL3761AFNE.m in Sources */,
+				C9DE9DED1835BE8700CD3B84 /* XLCurveDataItem.m in Sources */,
+				C9DE9DEF1835BE8700CD3B84 /* XLSubCurveDataItem.m in Sources */,
+				C9DE9DF41835BE9C00CD3B84 /* XLDataBase.m in Sources */,
+				C9DE9DF61835BE9C00CD3B84 /* Model.xcdatamodel in Sources */,
+				C9DE9DFE1835BF1900CD3B84 /* XLSocketManager.m in Sources */,
+				C9DE9E001835BF1900CD3B84 /* XLSettingsManager.m in Sources */,
+				C9DE9E051835C01A00CD3B84 /* Reachability.m in Sources */,
+				C9DE9E0B1835C07400CD3B84 /* GCDAsyncSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +718,35 @@
 			files = (
 				C9257A481835A3DB00775CFF /* PowerClientAppForIPhoneTests.m in Sources */,
 				C917DC801835B24200472D40 /* CMDEncryptedSQLiteStore.m in Sources */,
+				C9DE9DA81835BE4700CD3B84 /* XLFrameData.m in Sources */,
+				C9DE9DAA1835BE4700CD3B84 /* XLSocketOperation.m in Sources */,
+				C9DE9DAC1835BE4700CD3B84 /* XL3761BaseRequest.m in Sources */,
+				C9DE9DAE1835BE4700CD3B84 /* XL3761Header.m in Sources */,
+				C9DE9DB01835BE4700CD3B84 /* XL3761ControlField.m in Sources */,
+				C9DE9DB21835BE4700CD3B84 /* XL3761AddressField.m in Sources */,
+				C9DE9DB41835BE4700CD3B84 /* XL3761SEQField.m in Sources */,
+				C9DE9DB61835BE4700CD3B84 /* XL3761DADTRecord.m in Sources */,
+				C9DE9DB81835BE4700CD3B84 /* XL3761AUXField.m in Sources */,
+				C9DE9DC41835BE5700CD3B84 /* XL3761PackFrame.m in Sources */,
+				C9DE9DC61835BE5700CD3B84 /* XL3761PackRequest.m in Sources */,
+				C9DE9DC81835BE5700CD3B84 /* XL3761PackEntity.m in Sources */,
+				C9DE9DCA1835BE5700CD3B84 /* XL3761PackItem.m in Sources */,
+				C9DE9DCC1835BE5700CD3B84 /* XL3761PackUserData.m in Sources */,
+				C9DE9DDC1835BE6400CD3B84 /* XL3761AFN0.m in Sources */,
+				C9DE9DDE1835BE6400CD3B84 /* XL3761AFN1.m in Sources */,
+				C9DE9DE01835BE6400CD3B84 /* XL3761AFN4.m in Sources */,
+				C9DE9DE21835BE6400CD3B84 /* XL3761AFNA.m in Sources */,
+				C9DE9DE41835BE6400CD3B84 /* XL3761AFNC.m in Sources */,
+				C9DE9DE61835BE6400CD3B84 /* XL3761AFND.m in Sources */,
+				C9DE9DE81835BE6400CD3B84 /* XL3761AFNE.m in Sources */,
+				C9DE9DEE1835BE8700CD3B84 /* XLCurveDataItem.m in Sources */,
+				C9DE9DF01835BE8700CD3B84 /* XLSubCurveDataItem.m in Sources */,
+				C9DE9DF51835BE9C00CD3B84 /* XLDataBase.m in Sources */,
+				C9DE9DF71835BE9C00CD3B84 /* Model.xcdatamodel in Sources */,
+				C9DE9DFF1835BF1900CD3B84 /* XLSocketManager.m in Sources */,
+				C9DE9E011835BF1900CD3B84 /* XLSettingsManager.m in Sources */,
+				C9DE9E061835C01A00CD3B84 /* Reachability.m in Sources */,
+				C9DE9E0C1835C07400CD3B84 /* GCDAsyncSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

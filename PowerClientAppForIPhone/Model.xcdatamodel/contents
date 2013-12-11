@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12F37" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="XLCommonShow" representedClassName="XLCommonShow" syncable="YES">
+        <attribute name="activePowerA" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="activePowerB" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="activePowerC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clock" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="curA" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="curB" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="curC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="humidity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="powerFactorA" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="powerFactorB" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="powerFactorC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="temperature" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="terminalAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="volA" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="volB" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="volC" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="XLEventList" representedClassName="XLEventList" syncable="YES">
+        <attribute name="event" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="XLLSCurveData" representedClassName="XLLSCurveData" syncable="YES">
+        <attribute name="point1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="point2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="point3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="point4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="point5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="point6" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="point7" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="point8" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="point9" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="point10" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="point11" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="point12" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="point13" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="point14" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="point15" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="point16" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="point17" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="point18" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="point19" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="point20" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="point21" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="point22" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="point23" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="point24" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yearMonthDay" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="XLLSDaliyData" representedClassName="XLLSDaliyData" syncable="YES">
+        <attribute name="maxAActivePowerNeeds" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maxAActivePowerNeedsTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maxActivePower" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maxActivePowerNeeds" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maxActivePowerNeedsTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maxActivePowerTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maxBActivePowerNeeds" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maxBActivePowerNeedsTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maxCActivePowerNeeds" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maxCActivePowerNeedsTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="outOfLimitTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resetTimes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yearMonthDay" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="XLLSMonthlyData" representedClassName="XLLSMonthlyData" syncable="YES">
+        <attribute name="maxAActivePowerNeeds" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maxAActivePowerNeedsTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maxActivePower" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maxActivePowerNeeds" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maxActivePowerNeedsTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maxActivePowerTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maxBActivePowerNeeds" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maxBActivePowerNeedsTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maxCActivePowerNeeds" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maxCActivePowerNeedsTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="outOfLimitTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resetTimes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yearMonth" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="XLRealTimeData" representedClassName="XLRealTimeData" syncable="YES">
+        <attribute name="activePowerA" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="activePowerB" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="activePowerC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="activePowerTotal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="apparentPowerA" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="apparentPowerB" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="apparentPowerC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="apparentPowerTotal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="curA" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="curB" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="curC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="powerFactorA" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="powerFactorB" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="powerFactorC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="powerFactorTotal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="volA" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="volB" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="volC" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="XLUser" representedClassName="XLUser" syncable="YES">
+        <attribute name="dept" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="roleid" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="tel" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="XLVolOfflimitData" representedClassName="XLVolOfflimitData" syncable="YES">
+        <attribute name="aVolOverLowerlimit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aVolOverLowerlimitRate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aVolOverUpperlimit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aVolOverUpperlimitRate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aVolQualifiedRate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aVolQualifiedTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bVolOverLowerlimit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bVolOverLowerlimitRate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bVolOverUpperlimit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bVolOverUpperlimitRate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bVolQualifiedRate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bVolQualifiedTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cVolOverLowerlimit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cVolOverLowerlimitRate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cVolOverUpperlimit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cVolOverUpperlimitRate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cVolQualifiedRate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cVolQualifiedTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateDate" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="XLCommonShow" positionX="-9558" positionY="-5877" width="128" height="285"/>
+        <element name="XLEventList" positionX="-9236" positionY="-5664" width="128" height="75"/>
+        <element name="XLLSCurveData" positionX="-9396" positionY="-5553" width="128" height="433"/>
+        <element name="XLLSDaliyData" positionX="160" positionY="192" width="128" height="238"/>
+        <element name="XLLSMonthlyData" positionX="-9747" positionY="-5649" width="128" height="238"/>
+        <element name="XLRealTimeData" positionX="-9560" positionY="-5553" width="128" height="315"/>
+        <element name="XLUser" positionX="-9396" positionY="-5707" width="128" height="120"/>
+        <element name="XLVolOfflimitData" positionX="160" positionY="192" width="128" height="345"/>
+    </elements>
+</model>
